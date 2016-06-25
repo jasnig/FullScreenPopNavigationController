@@ -8,6 +8,8 @@
 
 [实现过程](http://www.jianshu.com/p/47a3f4ae4bc3)
 
+requirement: swift3.0+ xcode8.0+
+
 首先展示一下最终的使用方法, 使用还是比较方便
 
 * 第一种, 使用提供的自定义的navigationController
