@@ -10,7 +10,7 @@ import UIKit
 
 class CustomNavigationController: UINavigationController {
 
-    private var panGesture: UIPanGestureRecognizer?
+    private(set) var panGesture: UIPanGestureRecognizer?
     private var customDelegate: CustomNavigationControllerDelegate?
     
     required init?(coder aDecoder: NSCoder) {

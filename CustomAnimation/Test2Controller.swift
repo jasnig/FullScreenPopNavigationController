@@ -44,7 +44,6 @@ class TestCancelPopController: UIViewController {
     }
     func btnOnClick() {
         // 如果是使用分类navigationController?.zj_enableFullScreenPop(isEnabled: false)
-
         (navigationController as? CustomNavigationController)?.enabledFullScreenPop(isEnabled: false)
         
     }
