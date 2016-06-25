@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B11EBAC1D1CD80C002DF178 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11EBAB1D1CD80C002DF178 /* CustomNavigationController.swift */; };
 		4B21A2631D1A27010061984E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21A2621D1A27010061984E /* AppDelegate.swift */; };
 		4B21A2651D1A27010061984E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21A2641D1A27010061984E /* ViewController.swift */; };
 		4B21A2681D1A27010061984E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B21A2661D1A27010061984E /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		4B21A26D1D1A27010061984E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B21A26B1D1A27010061984E /* LaunchScreen.storyboard */; };
 		4B21A2781D1A27010061984E /* CustomAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21A2771D1A27010061984E /* CustomAnimationTests.swift */; };
 		4B21A2831D1A27010061984E /* CustomAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21A2821D1A27010061984E /* CustomAnimationUITests.swift */; };
+		4B21A2911D1A273B0061984E /* CustomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B21A2901D1A273B0061984E /* CustomAnimator.swift */; };
+		4B88BB351D1BE8B400DC080B /* NavigationControllerFullScreenPopExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B88BB341D1BE8B400DC080B /* NavigationControllerFullScreenPopExtension.swift */; };
+		4BB5B4861D1D385B00528008 /* Test1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5B4851D1D385B00528008 /* Test1Controller.swift */; };
+		4BB5B4881D1D387100528008 /* Test2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5B4871D1D387100528008 /* Test2Controller.swift */; };
+		4BB5B48A1D1D387E00528008 /* Test3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5B4891D1D387E00528008 /* Test3Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B11EBAB1D1CD80C002DF178 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		4B21A25F1D1A27010061984E /* CustomAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B21A2621D1A27010061984E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B21A2641D1A27010061984E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		4B21A27E1D1A27010061984E /* CustomAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B21A2821D1A27010061984E /* CustomAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationUITests.swift; sourceTree = "<group>"; };
 		4B21A2841D1A27010061984E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B21A2901D1A273B0061984E /* CustomAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimator.swift; sourceTree = "<group>"; };
+		4B88BB341D1BE8B400DC080B /* NavigationControllerFullScreenPopExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerFullScreenPopExtension.swift; sourceTree = "<group>"; };
+		4BB5B4851D1D385B00528008 /* Test1Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test1Controller.swift; sourceTree = "<group>"; };
+		4BB5B4871D1D387100528008 /* Test2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test2Controller.swift; sourceTree = "<group>"; };
+		4BB5B4891D1D387E00528008 /* Test3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test3Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,9 @@
 			children = (
 				4B21A2621D1A27010061984E /* AppDelegate.swift */,
 				4B21A2641D1A27010061984E /* ViewController.swift */,
+				4BB5B4821D1D37C500528008 /* 全屏pop自定义NavigationController */,
+				4BB5B4831D1D37ED00528008 /* 自定义present/dismiss动画 */,
+				4BB5B4841D1D37FE00528008 /* 全屏pop使用分类 */,
 				4B21A2661D1A27010061984E /* Main.storyboard */,
 				4B21A2691D1A27010061984E /* Assets.xcassets */,
 				4B21A26B1D1A27010061984E /* LaunchScreen.storyboard */,
@@ -123,6 +138,33 @@
 				4B21A2841D1A27010061984E /* Info.plist */,
 			);
 			path = CustomAnimationUITests;
+			sourceTree = "<group>";
+		};
+		4BB5B4821D1D37C500528008 /* 全屏pop自定义NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				4B11EBAB1D1CD80C002DF178 /* CustomNavigationController.swift */,
+				4BB5B4871D1D387100528008 /* Test2Controller.swift */,
+			);
+			name = "全屏pop自定义NavigationController";
+			sourceTree = "<group>";
+		};
+		4BB5B4831D1D37ED00528008 /* 自定义present/dismiss动画 */ = {
+			isa = PBXGroup;
+			children = (
+				4B21A2901D1A273B0061984E /* CustomAnimator.swift */,
+				4BB5B4851D1D385B00528008 /* Test1Controller.swift */,
+			);
+			name = "自定义present/dismiss动画";
+			sourceTree = "<group>";
+		};
+		4BB5B4841D1D37FE00528008 /* 全屏pop使用分类 */ = {
+			isa = PBXGroup;
+			children = (
+				4B88BB341D1BE8B400DC080B /* NavigationControllerFullScreenPopExtension.swift */,
+				4BB5B4891D1D387E00528008 /* Test3Controller.swift */,
+			);
+			name = "全屏pop使用分类";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,18 +230,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = ZeroJ;
 				TargetAttributes = {
 					4B21A25E1D1A27010061984E = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 					4B21A2721D1A27010061984E = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 4B21A25E1D1A27010061984E;
 					};
 					4B21A27D1D1A27010061984E = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 4B21A25E1D1A27010061984E;
 					};
 				};
@@ -257,7 +302,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B21A2651D1A27010061984E /* ViewController.swift in Sources */,
+				4B11EBAC1D1CD80C002DF178 /* CustomNavigationController.swift in Sources */,
 				4B21A2631D1A27010061984E /* AppDelegate.swift in Sources */,
+				4B21A2911D1A273B0061984E /* CustomAnimator.swift in Sources */,
+				4B88BB351D1BE8B400DC080B /* NavigationControllerFullScreenPopExtension.swift in Sources */,
+				4BB5B4861D1D385B00528008 /* Test1Controller.swift in Sources */,
+				4BB5B4881D1D387100528008 /* Test2Controller.swift in Sources */,
+				4BB5B48A1D1D387E00528008 /* Test3Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZeroJ.CustomAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -416,6 +468,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZeroJ.CustomAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -427,6 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZeroJ.CustomAnimationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomAnimation.app/CustomAnimation";
 			};
 			name = Debug;
@@ -439,6 +494,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZeroJ.CustomAnimationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomAnimation.app/CustomAnimation";
 			};
 			name = Release;
@@ -450,6 +507,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZeroJ.CustomAnimationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CustomAnimation;
 			};
 			name = Debug;
@@ -461,6 +519,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZeroJ.CustomAnimationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CustomAnimation;
 			};
 			name = Release;
@@ -484,6 +544,7 @@
 				4B21A2891D1A27010061984E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B21A28A1D1A27010061984E /* Build configuration list for PBXNativeTarget "CustomAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +553,7 @@
 				4B21A28C1D1A27010061984E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B21A28D1D1A27010061984E /* Build configuration list for PBXNativeTarget "CustomAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +562,7 @@
 				4B21A28F1D1A27010061984E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
