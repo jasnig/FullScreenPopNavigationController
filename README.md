@@ -1,0 +1,2 @@
+# FullScreenPopNavigationController
+自定义navigationController的全屏滑动返回
