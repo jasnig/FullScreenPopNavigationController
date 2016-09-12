@@ -1,6 +1,6 @@
 # FullScreenPopNavigationController
 自定义navigationController的全屏滑动返回
-
+[swift2.3版](https://github.com/jasnig/PopScreenPopNavigationControllerSwift2.3)
 
 
 最终效果
@@ -37,3 +37,6 @@ requirement: swift3.0+ xcode8.0+
         navigationController?.zj_enableFullScreenPop(isEnabled: true)
 ```
 
+
+####如果对你有帮助,请随手给个star 
+####如果你在使用中遇到问题: 可以联系我QQ: 854136959
